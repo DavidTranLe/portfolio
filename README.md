@@ -1,7 +1,6 @@
 # Personal-Portfolio
 > This is personal portfolio website.
 
-![Portfolio](https://raw.github.com/Meri-MG/portfolio---react/master/src/assets/port.png)
 
 ## Built With
 
@@ -10,8 +9,6 @@
 - VS code
 
 ## Live Demo
-
-- [Live Demo](https://meri-mg-portfolio.netlify.app/)
 
 
 # Getting Started
