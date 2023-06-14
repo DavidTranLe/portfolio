@@ -14,11 +14,14 @@ import './testimonials.css';
 const Testimonials = () => {
   const testimonials = [
     {
-      id: 1,
       link: 'https://www.linkedin.com/in/ching-cheng/',
       name: 'Ching Cheng',
-      role: 'Full-Stack Web Developer. JavaScript | Rails | React | Redux. Improving open-source projects, one commit at a time.',
       test: "Throughout our professional journey together, I have had the pleasure of working closely with David on numerous tasks and projects. David's lighthearted and positive attitude is magnetizing and creates a fun and enjoyable work environment. David's curiosity and relentless drive to tackle new challenges never cease to amaze me. David stands out as one of the most talented and hardworking software engineers I have had the privilege to know personally. His dedication is evident in the quality of his work, and his ability to navigate complex problems with ease sets him apart. Anyone would be lucky to work alongside someone as talented and dependable as David.",
+    },
+    {
+      link: 'https://www.linkedin.com/in/paulnnaoji/',
+      name: 'Paul Nnaoji',
+      test: "David Le is a problem solver and software engineer who takes on big challenges and accomplishes them. Any team would be lucky to have him.",
     },
   ];
   return (
@@ -32,8 +35,8 @@ const Testimonials = () => {
         slidesPerView={1}
         pagination={{ clickable: true }}
         >
-        {testimonials.map((test) => (
-          <SwiperSlide className="testimonial" key={test.id}>
+        {testimonials.map((test, index) => (
+          <SwiperSlide className="testimonial" key={index}>
           <div className="client__avatar">
             <a href={test.link}>
               <BsLinkedin />

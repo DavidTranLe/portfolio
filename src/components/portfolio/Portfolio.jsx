@@ -1,7 +1,7 @@
 import React from 'react';
 import IMG1 from '../../assets/cinematch.png';
 import IMG2 from '../../assets/todo.png';
-import IMG4 from '../../assets/fake.png';
+import IMG4 from '../../assets/CarCar.png';
 
 import './portfolio.css';
 
@@ -24,7 +24,7 @@ const Portfolio = () => {
       description:
         'A single page application built using microservice architecture to handle service appointments, sales, and inventory management for an automobile sales and service center',
       technologies: 'Django | React',
-      gitlab: 'https://github.com/Meri-MG/Fakestore---react',
+      gitlab: 'https://gitlab.com/contactdavidtle/carcar',
     },
     {
       id: 3,
