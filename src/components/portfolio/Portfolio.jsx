@@ -12,7 +12,11 @@ const Portfolio = () => {
       title: 'Cinematch',
       img: IMG1,
       description:
-        'BookStore app that allows users to store books and update progress',
+        `Cinematch is a a single page application built in React and FastAPI with postgresSQL databse.
+        It is a recommendation service that allows users to find movies to add into their watchlist and gives a movie suggestion based on their wishlist.
+        I built out the authentication manually without using any third party parties.
+        **Disclaimer** I have stopped paying the subscription to keep my backend microservices deployed but you can still check out the general design of the website
+        before authentication as it is representative of the rest of the project. I may decide to redeploy elsewhere in the future.`,
       technologies: 'FastAPI | React',
       link: 'https://team-tommy.gitlab.io/cinematch/',
       gitlab: 'https://gitlab.com/team-tommy/cinematch',
