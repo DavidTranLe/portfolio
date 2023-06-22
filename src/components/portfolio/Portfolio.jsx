@@ -17,7 +17,7 @@ const Portfolio = () => {
         I built out the authentication manually without using any third party parties.
         **Disclaimer** I have stopped paying the subscription to keep my backend microservices deployed but you can still check out the general design of the website
         before authentication as it is representative of the rest of the project. I may decide to redeploy elsewhere in the future.`,
-      technologies: 'FastAPI | React',
+      technologies: 'FastAPI | React | PostgreSQL',
       link: 'https://team-tommy.gitlab.io/cinematch/',
       gitlab: 'https://gitlab.com/team-tommy/cinematch',
     },
@@ -27,7 +27,7 @@ const Portfolio = () => {
       img: IMG4,
       description:
         'A single page application built using microservice architecture to handle service appointments, sales, and inventory management for an automobile sales and service center',
-      technologies: 'Django | React',
+      technologies: 'Django | React | PostgreSQL',
       gitlab: 'https://gitlab.com/contactdavidtle/carcar',
     },
     {
@@ -35,7 +35,7 @@ const Portfolio = () => {
       title: 'Task Manager',
       img: IMG2,
       description: 'User friendly app to plan your day and manage tasks',
-      technologies: 'Django',
+      technologies: 'Django | SQLite',
       gitlab: 'https://gitlab.com/contactdavidtle/task-manager',
     },
   ];
