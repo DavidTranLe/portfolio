@@ -23,6 +23,16 @@ const Testimonials = () => {
       name: 'Paul Nnaoji',
       test: "David Le is a problem solver and software engineer who takes on big challenges and accomplishes them. Any team would be lucky to have him.",
     },
+    {
+      link: 'https://www.linkedin.com/in/abagail-wang/',
+      name: 'Abagail Wang',
+      test: `I am delighted to provide a glowing testimonial for David as an exceptional software engineer and team member. His deep understanding of software engineering principles, exceptional problem-solving abilities, and dedication to achieving excellence make him an invaluable asset. David's technical proficiency, collaborative nature, and positive attitude create a supportive work environment. I highly recommend David without hesitation.`,
+    },
+    {
+      link: 'https://www.linkedin.com/in/jasondai95/',
+      name: 'Jason Dai',
+      test: `David is a true gem as a software engineer and team member. Their exceptional skills, unwavering dedication, and genuine collaboration make them an invaluable asset. It's an absolute joy to work with David, and I wholeheartedly recommend them for their remarkable contributions and positive influence on the team.`,
+    }
   ];
   return (
     <section id="testimonials">

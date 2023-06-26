@@ -28,7 +28,9 @@ const Intro = () => {
               <small>20+ Completed Projects</small>
             </article>
           </div>
-          <p>Over the course of my software engineering career, I have been actively involved in HTML, CSS, Python, and JavaScript work. From crafting landing pages to developing APIs, I've gained hands-on experience in various aspects of web development. Collaborating with fellow developers from different corners of the globe has sharpened my teamwork skills. Moreover, my previous endeavors outside the tech realm have taught me how to thrive in demanding situations, enabling me to be efficient and productive even in highly stressful environments, qualities that are highly valued in the tech industry.</p>
+          <p>Among the things that bring me the most joy in life, there are a few that stand out: finding ways to streamline processes and maximize efficiency, exercising creativity by producing things with limited resources, and collaborating with others towards a shared objective. These passions are beautifully integrated in the field of programming and software development, which is why I was naturally drawn to it during the pandemic and invested time in self-teaching. Subsequently, I embarked on a 19-week course at Hack Reactor to delve into the paradigms of software development and currently work with helping students on their own coding career while I assist them in their gaps of knowledge and help debug their projects and programs.</p>
+          <p>Drawing upon my experience in the hospitality industry, I have always been drawn to collaborative work environments where I can work alongside others to achieve a common goal. My attention to detail and ability to quickly adapt to changing circumstances have proven to be valuable assets in any team-based setting.</p>
+          <p>In my free time, I tend to spend time reading books or dancing Brazilian Zouk. </p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>

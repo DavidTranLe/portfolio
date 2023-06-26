@@ -8,7 +8,6 @@ import './portfolio.css';
 const Portfolio = () => {
   const soloProjects = [
     {
-      id: 1,
       title: 'Cinematch',
       img: IMG1,
       description:
@@ -17,25 +16,23 @@ const Portfolio = () => {
         I built out the authentication manually without using any third party parties.
         **Disclaimer** I have stopped paying the subscription to keep my backend microservices deployed but you can still check out the general design of the website
         before authentication as it is representative of the rest of the project. I may decide to redeploy elsewhere in the future.`,
-      technologies: 'FastAPI | React | PostgreSQL',
+      technologies: 'FastAPI | React | PostgreSQL | Python | Javascript | HTML | CSS | Bootstrap',
       link: 'https://team-tommy.gitlab.io/cinematch/',
       gitlab: 'https://gitlab.com/team-tommy/cinematch',
     },
     {
-      id: 2,
       title: 'Car Car',
       img: IMG4,
       description:
         'A single page application built using microservice architecture to handle service appointments, sales, and inventory management for an automobile sales and service center',
-      technologies: 'Django | React | PostgreSQL',
+      technologies: 'Django | React | PostgreSQL | Python | Javascript | HTML | CSS | Bootstrap',
       gitlab: 'https://gitlab.com/contactdavidtle/carcar',
     },
     {
-      id: 3,
       title: 'Task Manager',
       img: IMG2,
       description: 'User friendly app to plan your day and manage tasks',
-      technologies: 'Django | SQLite',
+      technologies: 'Django | SQLite | Python | HTML | CSS',
       gitlab: 'https://gitlab.com/contactdavidtle/task-manager',
     },
   ];
@@ -46,8 +43,8 @@ const Portfolio = () => {
       <h2>Projects</h2>
 
       <div className="container portfolio__container">
-        {soloProjects.map((pro) => (
-          <article className="portfolio__item" key={pro.id}>
+        {soloProjects.map((pro, index) => (
+          <article className="portfolio__item" key={index}>
             <div className="portfolio__item-image">
               <img src={pro.img} alt={pro.title} />
             </div>
@@ -56,6 +53,7 @@ const Portfolio = () => {
               <p>{pro.description}</p>
               <p>{pro.technologies}</p>
             </div>
+            <p></p>
             <div className="portfolio__item-cta">
               {pro.github ? (
                 <a
