@@ -21,7 +21,7 @@ const Testimonials = () => {
     {
       link: 'https://www.linkedin.com/in/paulnnaoji/',
       name: 'Paul Nnaoji',
-      test: "David Le is a problem solver and software engineer who takes on big challenges and accomplishes them. Any team would be lucky to have him.",
+      test: "David Le's exceptional problem-solving skills and expertise as a software engineer make him highly capable of tackling complex obstacles and consistently achieving successful outcomes. With his presence, any team would undoubtedly benefit from his valuable contributions and unwavering determination.",
     },
     {
       link: 'https://www.linkedin.com/in/abagail-wang/',
