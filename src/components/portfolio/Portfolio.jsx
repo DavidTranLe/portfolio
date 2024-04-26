@@ -30,7 +30,6 @@ const Portfolio = () => {
     },
     {
       title: 'Task Manager',
-      img: IMG2,
       description: 'User friendly app to plan your day and manage tasks',
       technologies: 'Django | SQLite | Python | HTML | CSS',
       gitlab: 'https://gitlab.com/contactdavidtle/task-manager',
